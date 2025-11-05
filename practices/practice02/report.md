@@ -14,4 +14,6 @@
 
 ---
 
-⏸️ 待完成
+使用 fxbaogao-mcp 获取并生产一份 MCP 行业发展报告，再用 okppt 生成 PPT。
+
+![](https://xieting-img.oss-cn-hangzhou.aliyuncs.com/Snipaste_2025-11-05_23-45_30.png)
