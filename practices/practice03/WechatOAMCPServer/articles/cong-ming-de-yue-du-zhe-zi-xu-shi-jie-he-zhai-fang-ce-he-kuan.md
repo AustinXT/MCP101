@@ -1,7 +1,7 @@
 ---
 title: 《聪明的阅读者》自序：世界何窄，方册何宽
 source_url: https://mp.weixin.qq.com/s/CVH3Aem-cpXfZPNrI4DQWw
-account: ''
+account: 阳志平
 published: '2025-11-06'
 language: zh
 ---

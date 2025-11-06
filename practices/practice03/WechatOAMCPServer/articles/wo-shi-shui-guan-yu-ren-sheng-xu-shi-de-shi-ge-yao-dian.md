@@ -1,7 +1,7 @@
 ---
 title: 我是谁？关于人生叙事的十个要点
 source_url: https://mp.weixin.qq.com/s/b23TiUPkUK2SNMAG-JjRiQ
-account: ''
+account: 阳志平
 published: '2025-11-06'
 language: zh
 ---
