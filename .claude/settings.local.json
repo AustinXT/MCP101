@@ -17,7 +17,9 @@
       "Bash(npm install:*)",
       "Bash(node collect_ch03.js:*)",
       "mcp__playwright__browser_close",
-      "Bash(npx playwright:*)"
+      "Bash(npx playwright:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
