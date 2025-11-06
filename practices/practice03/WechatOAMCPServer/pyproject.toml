@@ -1,0 +1,35 @@
+[project]
+name = "wechat-oa-mcp-server"
+version = "0.1.0"
+description = "Wechat Official Account MCP Server implemented with Python FastMCP"
+readme = "README.zh.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "nv", email = "nv@example.com" }
+]
+
+dependencies = [
+  "fastmcp>=2.0.0",
+  "httpx>=0.27.0",
+  "pydantic>=2.0.0",
+  "requests>=2.31.0",
+  "beautifulsoup4>=4.12.2",
+  "markdownify>=0.11.6",
+  "PyYAML>=6.0.1",
+  "python-slugify>=8.0.1",
+]
+
+[project.optional-dependencies]
+headless = [
+  "playwright>=1.47.0",
+]
+
+[project.scripts]
+wechat-oa-mcp-server = "mcp_server_wechat_oa.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcp_server_wechat_oa"]
